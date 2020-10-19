@@ -17,6 +17,7 @@ Y el programa main. En cuanto a la relacion entre las clases Habitacion y Reserv
 Cada clase con sus metodos publicos y privados (por seguridad y para que el usuario no pueda manipular ciertos aspectos del programa) y sus correspondientes métodos.
 
 *Funcionaliodad*
+
 En cuanto al programa, el usuario navega por un menu de 6 opciones, hasta que pulsa la opcion numero 6 (marcada como la opcion 'Salir'). Implementado con un While.
 El programa permite al usuario:
 
