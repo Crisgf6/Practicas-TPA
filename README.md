@@ -31,6 +31,6 @@ El programa permite al usuario:
     
     ·Escribir una reseña sobre un hotel
     
-Separados los casos por un *switch*, e implementados usandouna variedad de bucles y distintas herramientas de programacion.
+Separados los casos por un *switch*, e implementados usando una variedad de bucles y distintas herramientas de programacion.
 
 Para evitar la redundancia de datos en la base de datos del programa, he decidido simular una clave primaria usando el dni de los usuarios. Es decir, en el programa no he permitidos que hayan dos reservas con el mismo dni en el mismo hotel. Este aspecto queda plasmado en la opcion reservar habitacion, ya que una vez introducidos los datos, si el programa detecta que hay una reserva con el mismo dni en el mismo hotel, saltará un error y no procedera a meter la reserva en el vector de reserva, y por ende, hacer la reserva que solicita el usuario.
