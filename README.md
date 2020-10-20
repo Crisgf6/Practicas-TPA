@@ -34,3 +34,7 @@ Separados los casos por un *switch*, e implementados usando una variedad de bucl
 En la clase Hotel, a la hora de implementar el método inicializarHotel, he tenido que crear una instancia de la clase para poder devolver los datos que introduce el usuiario a la función main, para que puedan ser procesados en la misma.
 
 También he creado un método en la clase Hotel que muestra los datos mas relevantes para un consumidor, de todos los hoteles de la base de datos.
+
+Para el atributo 'numero' de la clase habitación, he decido implementar un randomizador de números, siendo el límite 200, para simular el método de distribución de habitaciones de los hoteles. Siendo este por ejemplo '122', en el que el '1' marca el primer piso, y el '22' la habitación en el pasillo.
+
+A la hora de implementar el método inicializarHotel, he decidido inicializar el atributo reseña = "", para dar la opción al usuario de introducirla manualmente mediante una opción aparte de la aplicación/programa. Con el fin de darle un poco más de realismo a la práctica.
