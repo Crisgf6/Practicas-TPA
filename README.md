@@ -1,4 +1,4 @@
-# Practica1-TPA
+# Practica2-Técnicas de Programación Avanzada
 Practica 1 Técnicas de Programación Avanzada
 
 En esta practica, he desarrollado un codigo que simula una web de gestion de hoteles (similar a Trivago por ejemplo), con diferentes opciones para el usuario.
