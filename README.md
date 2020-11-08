@@ -27,6 +27,7 @@ Para profundizar en las funcionalidades de la aplicacion, he creado una clase us
     ·Salir: Opcion que redirecciona al usuario al menu principal.
 
 Tambien me ha parecido curioso y esteticamente atractivo hacer uso de **Swing**. En la opcion '7' (salir de la aplicacion), en vez de acabar el programa de forma inmediata, se despliega un menu interativo de confirmacion que simplemente ofrece una opcion de confirmacion al usuario para salir o permanecer en la aplicacion. 
+
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/swing.PNG" width="auto" height="auto">
 
 El programa principal incorpora una nueva funcionalidad. **Cancelar Reserva** es un metodo que permite al usuario cancelar su reserva. El usuario introduce su dni y el hotel donde se encuentra la reserva que desea cancelar ya que son los atributos que componen la clave primaria simulada que he mencionado antes. Primeramente, el programa recorre el vector de hoteles y comprueba que el nombre de hotel que ha introducido el usuario corresponde con el de algun hotel del vector. Es decir, que se comprueba que el hotel exista. Una vez hecha esta comprobacion, se recorre el vector de reservas para localizar la reserva que coincida con el hotel y el dni del usuario para poder eliminarla (cancalerla) del vector. De esta manera, si la reserva no existe se mostrara un mensaje por pantalla.
