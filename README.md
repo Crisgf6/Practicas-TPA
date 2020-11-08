@@ -21,4 +21,4 @@ Para profundizar en las funcionalidades de la aplicacion, he creado una clase us
     
     ·Salir: Opcion que redirecciona al usuario al menu principal.
 
-Tambien me ha parecido curioso y esteticamente atractivo hacer uso 
+Tambien me ha parecido curioso y esteticamente atractivo hacer uso de **Swing**. En la opcion '7' (salir de la aplicacion), en vez de acabar el programa de forma inmediata, se despliega un menu interativo de confirmacion que simplemente ofrece una opcion de confirmacion al usuario para salir o permanecer en la aplicacion. 
