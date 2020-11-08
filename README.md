@@ -14,6 +14,7 @@ La internacionalizacion del programa es uno de los aspectos nuevos que incorpora
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/mustraClases.PNG" width="auto" height="auto">
 
 Partiendo de esos dos ficheros, en el main, doy la opcion de seleccionar el idioma, y haciendo uso de Locale, creo una variable acorde a lo seleccionado por el usuario que es la que buscara las palabras clave en el fichero adecuado. Esto me ha permitido, si nos fijamos, sustiruir todas las cadenas en los **System.out.print()** por la variable que facilita Locale. Para asi imprimir la cadena en funcion del idioma especificado por el usuario.
+
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/codigoIdioma.PNG" width="700" height="auto">
 
 Para profundizar en las funcionalidades de la aplicacion, he creado una clase usuario en la que he diseñado distintos metodos. Cuando el usuario selecciona la opcion '1' del menu principal, se le redirecciona a un menu seccundario con unas opciones concretas. 
