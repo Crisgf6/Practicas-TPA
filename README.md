@@ -1,4 +1,4 @@
-<img src="https://github.com/Crisgf6/Practica1-TPA/master/assets/codigoIdioma.png" width="400" height="auto">
+<img src="https://github.com/Crisgf6/Practica1-TPA/master/assets/codigoIdioma.PNG" width="400" height="auto">
 
 # Practica2-Técnicas de Programación Avanzada
 
