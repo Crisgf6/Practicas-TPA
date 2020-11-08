@@ -1,4 +1,4 @@
-<img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/eclipse.PNG" width="auto" height="auto">
+<img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/eclipse.png" width="auto" height="auto">
 
 # Practica2-Técnicas de Programación Avanzada
 
