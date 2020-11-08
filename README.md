@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/Crisgf6/Practica1-TPA/master/assets/asset
+https://raw.githubusercontent.com/Crisgf6/Practica1-TPA/master/assets/codigoIdioma.PNG
 
 # Practica2-Técnicas de Programación Avanzada
 
