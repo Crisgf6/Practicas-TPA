@@ -7,5 +7,7 @@ En esta práctica, he desarrollado el codigo de la practica anterior para conseg
 *Cosas que han sido corregidas*
   
    ·Clase Hotel: En la practica anterior, el vector de hoteles generado para albergar todos los distintos hoteles que se van creando a lo largo de la ejecucion del programa, estaba inicializado en la clase **Hotel**. Esto no suponia ningun error a nivel de ejecucion como tal. Sin embargo, Es un error conceptual ya que no tiene sentido crear un hotel con hoteles dentro. Lo que he hecho en esta practica es inicializar ese vector en el programa **main**, y en las funciones en las que se requiere ese vector, pasarlo como parametro.
+   
+   ·Resource Bundle:
   
 *Desarrollo de la practica*
