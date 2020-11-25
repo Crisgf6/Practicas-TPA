@@ -19,4 +19,12 @@ En esta práctica, he desarrollado el codigo de la practica anterior para conseg
 ·Este diagrama de clases representa la gerarquía de clases que se encuentra en el codigo de la practica. Tal y como se aprecia, la clase **Habitacion** es una **super clase**, **Reserva** es una **sub clase** de esta super clase. Es decir, que la extiende. heredando así sus atributos y métodos. Por otra parte, hay una relación de agregación entre **Hotel*+ y **Reserva**. En este caso, el diagrama describe que un hotel puede tener, o no, varias reservas mientras que una reserva no puede no tener hotel. De hecho, debe tener uno, y solo un, hotel. En este diagrama se muestran las clases que componen el programa y sus atributos y métodos públicos (+) y privados (-).
 
 ·En esta práctica he implementado una interfaz, y el funcionamiento que le he dado es el siguiente.
+
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/interfaz.PNG" width="auto" height="auto">
+
+La clase buscador, que tiene como atributo un vector de strings, implementa un método que recibe como parámetro una clave, y la función es devolver **true** o **false** en función de si el vector de strings contiene o no esa clave. De esta manera se puedverificar si existe **X** reserva, o si existe **X** hotel. El programa muestra por pantalla un mensaje el cual he contolado con el operador *?*.
+
+·En la práctica anterior, a la hora de inicializar el hotel, el atributo **reseña** siempre se inicializaba como una cadena vacia, y ya posteriormente se le asignaba una reseña especificada por el usuario. Lo que he hecho en esta paráctica para que quedase mas estético ha sido sobrecargar el método constructor de la clase hotel para que hubiese un constructor que no inicializase la variable reseña.
+
+·Para el uso de la clase *Math*, he creado un nuevo atributo para la clase hotel que se llama valor. Este se calcula en el método *inicializarHotel()* como el *precioNoche* elevado a 4.
+
