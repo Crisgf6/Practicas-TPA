@@ -28,3 +28,6 @@ La clase buscador, que tiene como atributo un vector de strings, implementa un m
 
 ·Para el uso de la clase *Math*, he creado un nuevo atributo para la clase hotel que se llama valor. Este se calcula en el método *inicializarHotel()* como el *precioNoche* elevado a 4.
 
+·En esta práctica, he incorporado los test de *Junit*. Estos son metodos que te permiten probar el funcionamiento de las clases y de los métodos de tu programa. He tratado de incorporar distintos tipos de funcionalidades como **assertEquals**, **assertNotSame**, **assertTrue** y **assertNotNull**. Asimismo, he implementado un test que verifica el comportamiento de la interfaz.
+
+Por ultimo, hago incapie en el hecho de que hay veces que combiene mejorar el interfaz o cambiar ciertos aspectos del programa en vez de seguir con el desarrollo. Esto lo he visto plasmado a lo largo de estas 3 practicas. En todas he tenido que dedicarle algo de tiempo en mejorar un aspecto del programa que no era adecuado. Lo que he mencionado antes del notable cambio en los *resource bundles* o en el detalle de los vectores son un claro ejemplo de esto. Si esta situación la llevamos a la empresa, siempre hay pequeños aspectos que hemos de cambiar y corregir cuando son faciles de detectar antes de seguir con el desarrollo y hacer un codigo mucho mas extenso. Esto hará que el codgo sea mas eficiente.
