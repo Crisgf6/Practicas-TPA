@@ -17,5 +17,7 @@ En esta práctica, he desarrollado el codigo de la practica anterior para conseg
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/diagramaClases.PNG" width="auto" height="auto">
 Este diagrama de clases representa la gerarquía de clases que se encuentra en el codigo de la practica. Tal y como se aprecia, la clase **Habitacion** es una **super clase**, **Reserva** es una **sub clase** de esta super clase. Es decir, que la extiende. heredando así sus atributos y métodos. Por otra parte, hay una relación de agregación entre **Hotel*+ y **Reserva**. En este caso, el diagrama describe que un hotel puede tener, o no, varias reservas mientras que una reserva no puede no tener hotel. De hecho, debe tener uno, y solo un, hotel. En este diagrama se muestran las clases que componen el programa y sus atributos y métodos públicos (+) y privados (-).
 
+
 En esta práctica he implementado una interfaz, y el funcionamiento que le he dado es el siguiente.
+
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/interfaz.PNG" width="auto" height="auto">
