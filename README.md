@@ -16,7 +16,7 @@ Mediante un bucle, recorro el vector de hoteles llamando a la función que muest
 
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/genericos.PNG" width="auto" height="auto">
 
-**Crypto en Java**: Para este apartado, he visto algunos ejemplos del uso de la libreria *Crypto* en java pero he decidido hacer una implementación completa por mi propia cuenta. He implementado una interfaz crypto para simular la encriptación y desencriptación de datos. La clase *Criptografía* que implementa la interfaz tiene dos métodos. Encriptar y desencriptar.
+**Crypto en Java**: Para este apartado, he visto algunos ejemplos del uso de la libreria *Crypto* en java pero he decidido hacer una implementación completa por mi propia cuenta haciendo uso de una interfaz. La interfaz crypto simula la encriptación y desencriptación de datos. La clase *Criptografía* que implementa la interfaz tiene dos métodos. Encriptar y desencriptar.
 
 <img src="https://github.com/Crisgf6/Practica1-TPA/blob/main/assets/crypto1.PNG" width="auto" height="auto">
 
