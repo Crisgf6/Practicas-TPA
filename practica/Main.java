@@ -1,5 +1,6 @@
 package practica;
 
+import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 import java.util.Vector;
@@ -8,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Vector<Hotel> hoteles = new Vector<Hotel>();
 		Vector<Usuario> usuarios = new Vector<Usuario>();
 		
@@ -56,8 +57,16 @@ public class Main {
 					
 					case 2:  //Muestra todos los usuarios registrados
 						Usuario.infoUsuarios(recursos, usuarios);
+						
+					case 3:
+						Usuario.informe(recursos, hoteles);
+						break;
+						
+					case 4:
+						Usuario.recuperarContraseña(recursos, usuarios);
+						break;
 					}
-				}while(opcion2 != 3);
+				}while(opcion2 != 5);
 				break;
 				
 			case 2:  //Añadir hotel

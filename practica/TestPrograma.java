@@ -166,4 +166,15 @@ class TestPrograma {
 	public void testUsuarioExiste() {
 		assertNotNull(usuarioPrueba);
 	}
+	
+	@Test
+	public void testCriptografia() {
+		Crypto crypto = new Criptografia();
+		String contraseña = "Contraseña";
+		String enc = new String(crypto.encriptar(contraseña.getBytes()));
+		Usuario usuarioPrueba2 = new Usuario("cristobal@gmail.com", enc, LocalDate.now());
+		String resultado = usuarioPrueba2.getContraseña();
+		String esperado = new String(crypto.desencriptar(resultado.getBytes()));
+		assertEquals(esperado,contraseña);
+	}
 }
